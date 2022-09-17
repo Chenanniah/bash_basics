@@ -19,13 +19,13 @@ h=$(date +"%H")
 
 if [ $h -gt 6 -a $h -le 12 ]
 then
-echo It is morning
+echo Good morning!
 elif [ $h -gt 12 -a $h -le 16 ]
 then 
-echo It is afternoon
+echo Good afternoon!
 elif [ $h -gt 16 -a $h -le 20 ]
 then
-echo It is evening
+echo Good evening!
 else
-echo It is night
+echo Good night!
 fi
